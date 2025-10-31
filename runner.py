@@ -1,5 +1,6 @@
 import logging
-from core import run_powershell, fill_form
+from core import run_powershell
+
 
 def main():
     logging.basicConfig(
@@ -9,29 +10,19 @@ def main():
         encoding="utf-8"
     )
 
-    logging.info("Inicio del examen")
+    logging.info("Inicio del script modularizado")
 
-    data = {
-        "nombre": "Alumno Ejemplo",
-        "correo": "ejemplo@correo.com",
-        "equipo": "Equipo 3"
-    }
+    # Comando de prueba (puedes cambiarlo por otro)
+    ps_command = "Get-Date"
 
-    # Coordenadas obtenidas con coords_helper.py
-    start_coords = (450, 320)
+    code, out, err = run_powershell(ps_command)
 
-    logging.info("Ejecutando comando PowerShell...")
-    code, out, err = run_powershell("Get-Date")
+    print("Código:", code)
+    print("Salida:", out)
+    print("Error:", err)
 
-    if code == 0:
-        logging.info(f"PowerShell OK: {out}")
-    else:
-        logging.warning(f"PowerShell error: {err}")
+    logging.info("Fin del script")
 
-    logging.info("Llenando formulario...")
-    fill_form(data, start_coords)
-
-    logging.info("Fin del examen")
 
 if __name__ == "__main__":
     main()
