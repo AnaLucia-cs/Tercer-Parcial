@@ -54,6 +54,11 @@ y se creará un archivo dist.
 
 ---------
 
+## Configuración del equipo 
+El script fue ejecutadó en un equipo con sistema Windows. Con una resolución de 1366 x 768. La coordenadas manuales usadas para llenar el formulario fueron X:360, Y:430.
+
+---------
+
 ## Autores
 AnaLucia-cs | Automatización del formulario con pyautogui, validación de entradas
 iza-0L1N    | Incorporar las capturas de pantalla y loggings, empaquetado funcional como ejecutable, ejecución sin ventana y documentación
