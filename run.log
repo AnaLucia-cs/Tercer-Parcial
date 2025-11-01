@@ -1,0 +1,11 @@
+2025-10-31 22:10:08,010 - INFO - ===Inicio de ejecución===
+2025-10-31 22:10:08,031 - INFO - Datos a ingresar: {'fecha': '31/10/2025', 'nombre': ['Ana Lucia', 'Ana Laura', 'Iza'], 'matriculas': '6421386', 'opcion': ['Marvel']}
+2025-10-31 22:10:08,031 - INFO - Tomando captura inicial (before)...
+2025-10-31 22:10:08,680 - INFO - Coordenadas de inicio: (360, 430)
+2025-10-31 22:10:10,622 - INFO - Fecha escrita correctamente.
+2025-10-31 22:10:14,868 - INFO - Nombres escritos correctamente.
+2025-10-31 22:10:15,776 - INFO - Matrículas escritas correctamente.
+2025-10-31 22:10:16,076 - INFO - Captura intermedia (during) tomada.
+2025-10-31 22:10:17,282 - INFO - Formulario enviado correctamente.
+2025-10-31 22:10:17,475 - INFO - Captura final (after) tomada.
+2025-10-31 22:10:17,476 - INFO - ===Fin de ejecución===
