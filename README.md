@@ -1,4 +1,4 @@
-# Tercer-Parcial de Programción para Ciberseguridad
+# Tercer-Parcial de Programación para Ciberseguridad
 Repositorio para los programas del 3er parcial.
 
 ## Descripción del proyecto
